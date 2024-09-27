@@ -1398,3 +1398,159 @@ h2 {
 .blog-item-desc {
   margin-top: 1.6rem;
 }
+
+/* Footer */
+
+.footer {
+  background-color: var(--second-background-color);
+}
+
+.footer-container {
+  display: flex;
+  position: relative;
+}
+
+.footer span {
+  display: block;
+}
+
+.footer .logo-link {
+  display: inline-block;
+}
+
+.left-footer-container {
+  padding-top: 11.4rem;
+  padding-bottom: 14.1rem;
+  user-select: none;
+  padding-right: 21.2rem;
+}
+
+.social-list-container {
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.social-item-btn {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.social-link {
+  padding: 0.4rem 0.4rem;
+}
+
+.footer-label {
+  color: var(--heading-cetacean-blue-color);
+  font-family: "Sora", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2rem; /* 111.111% */
+}
+
+.social-cta {
+  margin-top: 6.8rem;
+}
+
+.email-getter-container {
+  margin-top: 3.48rem;
+  position: relative;
+  width: 26.8rem;
+  height: 4.6rem;
+}
+
+.email-getter-box {
+  opacity: 0.6;
+  padding-left: 2.2rem;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 9.9rem;
+  border-radius: 2.3rem;
+  border: 1px solid rgba(255, 91, 46, 0.25);
+  background: #fff;
+}
+
+.email-getter-box:focus {
+  opacity: 1;
+}
+
+.email-getter-box::placeholder {
+  color: #656689;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4rem; /* 116.667% */
+  opacity: 0.8;
+}
+
+.email-getter-btn-container {
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  width: 4.5rem;
+  height: 4.6rem;
+  border-radius: 50%;
+  background-color: var(--second-portland-orange-color);
+}
+
+.email-getter-link {
+  padding: 2.1rem;
+}
+
+.right-footer-container {
+  background-color: #fffaf5;
+  padding-top: 5.2rem;
+  padding-bottom: 11.4rem;
+  padding-left: 12.9rem;
+  padding-right: calc((100vw - 116.9rem) / 2 + 3.9rem);
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 22.6rem 22.6rem;
+  grid-template-rows: auto auto;
+  gap: 0rem 7.2rem;
+  grid-template-areas:
+    ". ."
+    ". .";
+}
+
+.footer-text {
+  color: var(--content-dark-blue-gray-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.8rem; /* 200% */
+}
+
+.footer-list-container .footer-item:first-of-type {
+  margin-top: 1.4rem;
+}
+
+.contact-label,
+.operator-label {
+  margin-top: 5.8rem;
+}
+
+.contact-detail,
+.operator-detail {
+  margin-top: 1.4rem;
+}
+
+.contact-detail {
+  width: 16.1rem;
+}
+
+.no-wrap-text {
+  white-space: nowrap;
+}
+
+.copy-right {
+  position: absolute;
+  bottom: 4.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--content-dark-blue-gray-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem; /* 116.667% */
+  opacity: 0.5;
+}
