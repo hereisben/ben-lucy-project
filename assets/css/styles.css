@@ -1252,7 +1252,6 @@ h2 {
 }
 
 .review-thumb-avatar {
-  -webkit-content-visibility: auto;
   position: absolute;
   bottom: -3rem;
   left: -1.5rem;
