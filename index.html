@@ -16,10 +16,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- Preload Avatar Images -->
-    <link rel="preload" href="./assets/img/review-avatar-1.svg" as="image" />
-    <link rel="preload" href="./assets/img/review-avatar-2.svg" as="image" />
-    <link rel="preload" href="./assets/img/review-avatar-3.svg" as="image" />
-    <link rel="preload" href="./assets/img/review-avatar-4.svg" as="image" />
+    <link rel="preload" href="./assets/img/review-avatar-1.png" as="image" />
+    <link rel="preload" href="./assets/img/review-avatar-2.png" as="image" />
+    <link rel="preload" href="./assets/img/review-avatar-3.png" as="image" />
+    <link rel="preload" href="./assets/img/review-avatar-4.png" as="image" />
   </head>
   <body style="height: 600rem">
     <!-- Header -->
@@ -173,13 +173,8 @@
                   <label
                     for="certified-groomer"
                     class="about-check-item-label gray-item-label"
-                    >Certified Groomer</label
-                  >
-                  <img
-                    src="./assets/img/check-vector.svg"
-                    alt="Check vector"
-                    class="about-check-vector"
-                  />
+                    >Certified Groomer
+                  </label>
                 </div>
                 <!-- Check Item 2 -->
                 <div class="about-check-item-container row">
@@ -195,11 +190,6 @@
                     class="about-check-item-label gray-item-label"
                     >Animal Lover</label
                   >
-                  <img
-                    src="./assets/img/check-vector.svg"
-                    alt="Check vector"
-                    class="about-check-vector"
-                  />
                 </div>
                 <!-- Check Item 3 -->
                 <div class="about-check-item-container row">
@@ -214,11 +204,6 @@
                     class="about-check-item-label gray-item-label"
                     >14+ Years Experience</label
                   >
-                  <img
-                    src="./assets/img/check-vector.svg"
-                    alt="Check vector"
-                    class="about-check-vector"
-                  />
                 </div>
                 <!-- Check Item 4 -->
                 <div class="about-check-item-container row">
@@ -233,11 +218,6 @@
                     class="about-check-item-label gray-item-label"
                     >Pet Parent Of 3 Dogs</label
                   >
-                  <img
-                    src="./assets/img/check-vector.svg"
-                    alt="Check vector"
-                    class="about-check-vector"
-                  />
                 </div>
               </form>
             </div>
@@ -1513,7 +1493,9 @@
                   >$150</span
                 >
                 <div class="rates-purchase-btn-container btn centered-item">
-                  <a href="#!" class="rates-purchase-link">Purchase Now</a>
+                  <a href="#!" class="rates-purchase-link btn-link"
+                    >Purchase Now</a
+                  >
                 </div>
                 <span class="rates-item-features gray-item-desc checked-feature"
                   >Single room</span
@@ -1551,7 +1533,9 @@
                   >$199</span
                 >
                 <div class="rates-purchase-btn-container btn centered-item">
-                  <a href="#!" class="rates-purchase-link">Purchase Now</a>
+                  <a href="#!" class="rates-purchase-link btn-link"
+                    >Purchase Now</a
+                  >
                 </div>
                 <span class="rates-item-features gray-item-desc checked-feature"
                   >Single room</span
@@ -1589,7 +1573,9 @@
                   >$299</span
                 >
                 <div class="rates-purchase-btn-container btn centered-item">
-                  <a href="#!" class="rates-purchase-link">Purchase Now</a>
+                  <a href="#!" class="rates-purchase-link btn-link"
+                    >Purchase Now</a
+                  >
                 </div>
                 <span
                   class="rates-item-features gray-item-desc checked-featured"
@@ -1660,7 +1646,8 @@
             <figure class="review-thumb-container">
               <div class="review-thumb-background"></div>
               <img
-                src="./assets/img/review-avatar-1.svg"
+                loading="lazy"
+                src="./assets/img/review-avatar-1.png"
                 alt="Karla Deras"
                 class="review-thumb-avatar"
               />
@@ -1715,6 +1702,61 @@
               <div class="review-dot dot-4" data-index="3"></div>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- Blog -->
+      <section class="blog">
+        <div class="content">
+          <div class="blog-container">
+            <!-- Top Blog -->
+            <div class="top-blog-container row">
+              <h2 class="blog-heading">Our Blog</h2>
+              <div class="top-right-blog-container">
+                <p class="blog-content-desc content-desc">
+                  Stay up to date with the latest tech trands and news in the
+                  pets.
+                </p>
+                <div class="blog-btn-container btn centered-item">
+                  <a href="" class="blog-btn-link btn-link">View All Blog</a>
+                </div>
+              </div>
+          </div>
+          <!-- Blog List -->
+           <div class="blog-list-container">
+            <!-- Blog 1 -->
+            <article class="blog-item-container">
+              <figure class="blog-item-thumb-container left-blog-thumb">
+                <span class="blog-item-date">21 june 2021</span>
+                <img src="./assets/img/blog-thumb-1.webp" alt="Blog Thumb 1" class="blog-thumb-image">
+              </figure>
+              <a href="#!" class="blog-item-label-link">
+                <h3 class="blog-item-label blue-item-label">Building Bonds and Trusting Relationships with Your Pets.</h3>
+              </a>
+              <p class="blog-item-desc gray-item-desc">There isn’t a relationship around that can survive without trust. My relationship with my dog Peyton is deep...</p>
+            </article>
+            <!-- Blog 2 -->
+            <article class="blog-item-container">
+              <figure class="blog-item-thumb-container center-blog-thumb">
+                <span class="blog-item-date">28 june 2021</span>
+                <img src="./assets/img/blog-thumb-2.jpeg" alt="Blog Thumb 2" class="blog-thumb-image">
+              </figure>
+              <a href="#!" class="blog-item-label-link">
+                <h3 class="blog-item-label blue-item-label">Celebrity pet photographer Grace Chon on taking ...</h3>
+              </a>
+              <p class="blog-item-desc gray-item-desc">Doting pet parents have a relentless need to constantly photograph every adorable pet moment...</p>
+            </article>
+            <!-- Blog 3 -->
+            <article class="blog-item-container">
+              <figure class="blog-item-thumb-container right-blog-thumb">
+                <span class="blog-item-date">10 july 2021</span>
+                <img src="./assets/img/blog-thumb-3.jpg" alt="Blog Thumb 3" class="blog-thumb-image">
+              </figure>
+              <a href="#!" class="blog-item-label-link">
+                <h3 class="blog-item-label blue-item-label">5 Simple Tricks To Create A More Conscious ...</h3>
+              </a>
+              <p class="blog-item-desc gray-item-desc">It is easy to forget that animals are living creatures with a beating heart.</p>
+            </article>
+           </div>
         </div>
       </section>
     </main>
@@ -1802,51 +1844,69 @@
     </script>
     <!-- Slide -->
     <script>
+      // Preload images
+      const imagesToPreload = [
+        "./assets/img/review-avatar-1.png",
+        "./assets/img/review-avatar-2.png",
+        "./assets/img/review-avatar-3.png",
+        "./assets/img/review-avatar-4.png",
+      ];
+
+      imagesToPreload.forEach((src) => {
+        const img = new Image();
+        img.src = src;
+      });
+
       document.addEventListener("DOMContentLoaded", function () {
         const reviews = [
           {
             quote:
               "“It was very comforting to receive a text and pics each day about our pets and how they were doing. It was also nice that my pets were in the comfortable environment of their own home.”",
             name: "Karla Deras",
-            avatar: "./assets/img/review-avatar-1.svg",
+            avatar: "./assets/img/review-avatar-1.png",
             bottom: "-3rem", // Specific bottom value
             left: "-1.5rem", // Specific left value
-            scale: "1.1",
+            transform: "scale(1.1)",
             width: "100%",
             backgroundcolor: "#FFDA54",
-          },
-          {
-            quote:
-              "“They truly cared about my pets and provided excellent service. I will definitely use them again!”",
-            name: "John Doe",
-            avatar: "./assets/img/review-avatar-2.svg",
-            bottom: "-5.6rem",
-            left: "0rem",
-            scale: "1.1",
-            width: "90%",
-            backgroundcolor: "#63B7B7",
+            opacity: "1",
           },
           {
             quote:
               "“Absolutely fantastic! The care my dog received was top-notch, and I got frequent updates.”",
             name: "Jane Smith",
-            avatar: "./assets/img/review-avatar-3.svg",
+            avatar: "./assets/img/review-avatar-3.png",
             bottom: "-3.5rem",
             left: "2rem",
-            scale: "1.18",
+            transform: "scale(1.18)",
             width: "100%",
             backgroundcolor: "#FFDDF4",
+            opacity: "1",
           },
+          {
+            quote:
+              "“They truly cared about my pets and provided excellent service. I will definitely use them again!”",
+            name: "John Doe",
+            avatar: "./assets/img/review-avatar-2.png",
+            bottom: "-5.6rem",
+            left: "0rem",
+            transform: "scale(1.1)",
+            width: "90%",
+            backgroundcolor: "#63B7B7",
+            opacity: "1",
+          },
+
           {
             quote:
               "“Highly recommend! The staff is friendly, and my pets were well cared for.”",
             name: "Emma Johnson",
-            avatar: "./assets/img/review-avatar-4.svg",
+            avatar: "./assets/img/review-avatar-4.png",
             bottom: "-13.4rem",
             left: "3.8rem",
-            scale: "1.5",
+            transform: "scale(1.5)",
             width: "100%",
             backgroundcolor: "#CCCCC4",
+            opacity: "1",
           },
         ];
 
@@ -1871,8 +1931,9 @@
           // Update avatar positioning based on bottom and left values
           avatarElement.style.bottom = reviews[index].bottom;
           avatarElement.style.left = reviews[index].left;
-          avatarElement.style.scale = reviews[index].scale;
+          avatarElement.style.transform = reviews[index].transform;
           avatarElement.style.width = reviews[index].width;
+          avatarElement.style.opacity = reviews[index].opacity;
 
           // Update dot background
           dots.forEach((dot) => dot.classList.remove("active"));
@@ -1880,16 +1941,18 @@
         }
 
         let debounceTimer;
-        document
-          .querySelector(".left-switch-container")
-          .addEventListener("click", function () {
-            clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(() => {
+        const handleSwitch = (direction) => {
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(() => {
+            if (direction === "left") {
               currentReviewIndex =
                 (currentReviewIndex - 1 + reviews.length) % reviews.length;
-              updateReview(currentReviewIndex);
-            }, 300);
-          });
+            } else {
+              currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+            }
+            updateReview(currentReviewIndex);
+          }, 300);
+        };
 
         // Left button click event
         document
